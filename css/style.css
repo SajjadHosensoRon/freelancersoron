@@ -1,0 +1,108 @@
+body, p, span {font-family: 'Roboto', sans-serif;}
+h1, h2, h3, h4, h5, h6, a {font-family: 'Rubik', sans-serif;}
+ul.MainMenu li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px ;
+ }
+
+ .Nav1 ul.MainMenu .section1.container-fluid{
+     max-width:
+ }
+ .contan{ display: flex;
+    height: 100vh;
+    align-items: center;
+    position: relative;
+    color: #ffffff;
+
+ }
+
+ .section1{
+background: url(../img/soron\ \(2\).jpg) no-repeat top center;
+background-size: cover;
+
+
+ }
+ .social-icon{ position: absolute;
+left: 0;
+bottom: 0;
+list-style: none;}
+.social-icon ul{
+    padding-left: 0;
+    list-style: none;
+ }
+.social-icon ul li span{ font-size: 20px;
+    display: inline-block;  position: relative;
+    color: black;
+    
+
+
+}
+.social-icon ul li a { text-decoration: none;
+    padding: 0 15px; font-size: 20px;
+    color: black; margin-left: 20px;
+   
+  }
+
+  .social-icon ul li a:first-child{
+      margin-left: 50px;
+  }
+
+  .social-icon ul li span::after{
+      content: "";
+ height: 2px;
+background: #111; 
+right: -40px;
+width: 30px; 
+top: 50%;
+position: absolute;}
+
+.section-2 ul{
+    list-style: none;
+    font-size: large;
+}
+
+.protfolio11 img{
+    height:100%;
+    width: 330px;
+    background: no-repeat;
+    margin: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+.protfolio11 img :hover{
+    color: blue;
+}
+.MESSAGE11 {
+ height: 30px;
+ padding: 10px;
+ width: 50%;
+ margin: 10px 0;
+}
+textarea{
+    width: 50%;
+}
+
+.MESSAGE111 {
+    
+    background-color: beige;
+}
+.SERVICES{
+    
+    background-color: beige;
+}
+
+
+
+
+
+
+
+
+
+.footer1{
+
+    color: white;
+}
